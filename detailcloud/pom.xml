@@ -23,6 +23,7 @@
         <module>miscroserivce-api</module>
         <module>miscoservice-provider</module>
         <module>miscoservice-consumer</module>
+        <module>miscoservice-consumer2</module>
     </modules>
 
 

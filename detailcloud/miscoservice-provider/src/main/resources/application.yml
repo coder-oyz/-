@@ -7,6 +7,12 @@ spring:
     username: root
     password: a
     url: jdbc:mysql://localhost:3306/testmis81?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=Hongkong
+  security:
+    user:
+      name: admin
+      password: a
+      roles:
+        - USER
 mybatis:
   configuration:
     map-underscore-to-camel-case: true    #将_转为驼峰命名
