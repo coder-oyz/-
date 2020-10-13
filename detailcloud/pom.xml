@@ -6,6 +6,7 @@
 
     <groupId>com.yc.springcloud_detail</groupId>
     <artifactId>detailcloud</artifactId>
+    <packaging>pom</packaging>
     <version>0.0.1-SNAPSHOT</version>
     <name>detailcloud</name>
     <description>Demo project for Spring Boot</description>
@@ -24,6 +25,8 @@
         <module>miscoservice-provider</module>
         <module>miscoservice-consumer</module>
         <module>miscoservice-consumer2</module>
+        <module>miscoservice-security</module>
+        <module>miscoservice-eureka</module>
     </modules>
 
 
@@ -50,6 +53,12 @@
             <dependency>
                 <groupId>com.yc.springcloud_detail</groupId>
                 <artifactId>miscoservice-api</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.yc.springcloud_detail</groupId>
+                <artifactId>miscoservice-security</artifactId>
                 <version>0.0.1-SNAPSHOT</version>
             </dependency>
 
