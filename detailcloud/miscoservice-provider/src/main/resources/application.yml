@@ -2,7 +2,7 @@ server:
   port: 8888
 spring:
   application:
-    name: microservice-provider1
+    name: microservice-provider
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: com.mysql.jdbc.Driver
@@ -27,4 +27,19 @@ logging:
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:7001/eureka
+      #defaultZone: http://localhost:7001/eureka
+      #绕过登录页面，要在eureka中加一个类关闭csrf
+      #defaultZone: http://admin:a@localhost:7001/eureka
+      defaultZone: http://admin:a@eureka1:7001/eureka,http://admin:a@eureka2:7002/eureka,http://admin:a@eureka3:7003/eureka
+  instance:
+    instance-id: miscoservice-provider-product_1  #实例名
+    #再解决provider端的心跳问题:
+    lease-expiration-duration-in-seconds: 90 #如果现在超过了5s的时间间隔( default: 90 s )
+    lease-renewal-interval-in-seconds: 30   #设置心跳的时间间隔( default:30s )
+
+#监控配置
+info:
+  app.name: MICROSERVICE-PROVIDER
+  company.name: yc
+  build.artifactId: $project.artifactId$
+  build.modelVersion: $project.modelVersion$

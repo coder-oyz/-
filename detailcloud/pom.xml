@@ -27,6 +27,8 @@
         <module>miscoservice-consumer2</module>
         <module>miscoservice-security</module>
         <module>miscoservice-eureka</module>
+        <module>miscoservice-eureka2</module>
+        <module>miscoservice-eureka3</module>
     </modules>
 
 

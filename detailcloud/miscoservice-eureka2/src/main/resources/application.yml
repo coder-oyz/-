@@ -1,5 +1,5 @@
 server:
-  port: 7001
+  port: 7002
 spring:
     security:
       user:
@@ -7,7 +7,7 @@ spring:
         password: a
 eureka:
   instance:
-    hostname: eureka1
+    hostname: eureka2
   client:   #解决  eureka启动时报错的问题, 因为这个服务器启动时，要到别的服务器上去拉取注册信息，同时注册自己
     fetch-registry: false  #要不要去注册中心获取其他服务的地址 , 解决eureka启动时报错
     register-with-eureka: false #是否当前客户端要注册到eureka
