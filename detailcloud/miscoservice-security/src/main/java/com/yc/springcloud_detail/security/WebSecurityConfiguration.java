@@ -1,4 +1,4 @@
-package com.yc.springcloud_detail.miscoserviceprovider.security;
+package com.yc.springcloud_detail.security;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;

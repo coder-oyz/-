@@ -22,13 +22,16 @@
     <modules>
         <!--可以将子模块聚合到父模块中 ,也可不聚合 -->
         <module>miscroserivce-api</module>
-        <module>miscoservice-provider</module>
+        <module>miscoservice-provider02</module>
+        <module>miscoservice-provider01</module>
+        <module>miscoservice-provider3</module>
         <module>miscoservice-consumer</module>
         <module>miscoservice-consumer2</module>
         <module>miscoservice-security</module>
         <module>miscoservice-eureka</module>
         <module>miscoservice-eureka2</module>
         <module>miscoservice-eureka3</module>
+
     </modules>
 
 
