@@ -31,7 +31,21 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-    </dependencies>
 
+
+<!--security整合mybatis-->
+    <dependency>
+        <groupId>com.yc.springcloud_detail</groupId>
+        <artifactId>miscoservice-api</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+        <groupId>commons-lang</groupId>
+        <artifactId>commons-lang</artifactId>
+        <version>2.6</version>
+        <scope>compile</scope>
+    </dependency>
+
+    </dependencies>
 
 </project>

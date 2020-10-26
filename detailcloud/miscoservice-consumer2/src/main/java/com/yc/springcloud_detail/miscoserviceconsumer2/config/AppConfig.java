@@ -16,6 +16,7 @@ public class AppConfig {
     //  -》Spring容器托管   “restTemplate”    RestTemplate 对象
     @Bean //创建一个 restTemplate 的模板操作对象   少了 @LoadBalance
     @LoadBalanced   //加入负载均衡，此处的负载时全局配置  （次服务的）
+    //将原来的换成了Eureka
     public RestTemplate restTemplate(){
         return new RestTemplate();
     }
