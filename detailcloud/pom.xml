@@ -27,10 +27,17 @@
         <module>miscoservice-provider3</module>
         <module>miscoservice-consumer</module>
         <module>miscoservice-consumer2</module>
+        <module>miscoservice-consumer-feign</module>
         <module>miscoservice-security</module>
         <module>miscoservice-eureka</module>
         <module>miscoservice-eureka2</module>
         <module>miscoservice-eureka3</module>
+        <module>miscoservice-interface</module>
+        <module>miscoservice-provider-hystrix</module>
+        <module>miscoservice-hystrix-dashboard</module>
+        <module>miscoservice-turbine</module>
+        <module>miscoservice-zuul-gateway</module>
+
 
     </modules>
 
@@ -50,6 +57,7 @@
         </dependency>
 
 
+
     </dependencies>
 
     <!-- //只是对版本进行管理，不会实际引入jar,子项目继承时必须显示声明  -->
@@ -67,7 +75,11 @@
                 <version>0.0.1-SNAPSHOT</version>
             </dependency>
 
-
+            <dependency>
+                <groupId>com.yc.springcloud_detail</groupId>
+                <artifactId>miscoservice-interface</artifactId>
+                <version>1.0.0</version>
+            </dependency>
 
             <!--多增加一个 druid数据库联接池 -->
             <dependency>

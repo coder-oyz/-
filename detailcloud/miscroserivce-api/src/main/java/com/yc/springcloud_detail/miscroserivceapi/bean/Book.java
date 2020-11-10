@@ -16,4 +16,52 @@ public class Book {
     private BigDecimal bookPrice;
     private Date bookDate;
     private Integer userId;
+
+    public Integer getBookId() {
+        return bookId;
+    }
+
+    public String getBookName() {
+        return bookName;
+    }
+
+    public String getBookAuthor() {
+        return bookAuthor;
+    }
+
+    public BigDecimal getBookPrice() {
+        return bookPrice;
+    }
+
+    public Date getBookDate() {
+        return bookDate;
+    }
+
+    public Integer getUserId() {
+        return userId;
+    }
+
+    public void setBookId(Integer bookId) {
+        this.bookId = bookId;
+    }
+
+    public void setBookName(String bookName) {
+        this.bookName = bookName;
+    }
+
+    public void setBookAuthor(String bookAuthor) {
+        this.bookAuthor = bookAuthor;
+    }
+
+    public void setBookPrice(BigDecimal bookPrice) {
+        this.bookPrice = bookPrice;
+    }
+
+    public void setBookDate(Date bookDate) {
+        this.bookDate = bookDate;
+    }
+
+    public void setUserId(Integer userId) {
+        this.userId = userId;
+    }
 }
