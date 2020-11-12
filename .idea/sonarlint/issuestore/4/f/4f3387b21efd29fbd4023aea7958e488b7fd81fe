@@ -1,0 +1,10 @@
+
+Z	java:S106C"9Replace this use of System.out or System.err by a logger.(õˆ¶úÿÿÿÿ8†õŸÊ×.
+b	java:S112'"FDefine and throw a dedicated exception instead of using a generic one.(ÎˆÌÀ8†õŸÊ×.
+K
+java:S1172-")Remove this unused method parameter "id".(‘Ûİ¥ùÿÿÿÿ8úªËÊ×.
+[
+java:S34001"9Remove this method and declare a constant for this value.(»Æ„€şÿÿÿÿ8ñÃËÊ×.
+U	java:S106<"9Replace this use of System.out or System.err by a logger.(ÓÒøÈ8†õŸÊ×.
+]	java:S125."<This block of commented-out lines of code should be removed.(ˆ‰ˆşÿÿÿÿ8úªËÊ×.
+Z	java:S106F"9Replace this use of System.out or System.err by a logger.(æüÜùÿÿÿÿ8†õŸÊ×.

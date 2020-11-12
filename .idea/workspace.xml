@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9e1cfe0f-8625-43cd-956e-f5bd7132743a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="2" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\MavenRepository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../apache-maven-3.2.5" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.2.5\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1iddgwZDD6C5rQVcg7K6ZvZownD" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/microservice-provider/src/main/java/com/yc/springcloud812/service" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.yc.springcloud812" />
+      <recent name="com.yc.springcloud812.controller" />
+      <recent name="com.yc.springcloud812.bean" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/microservice-provider/src/main/java/com/yc/springcloud812/service" />
+      <recent name="$PROJECT_DIR$/microservice-provider/src/main/java/com/yc/springcloud812/dao" />
+      <recent name="$PROJECT_DIR$/microservice-provider/doc" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Consumer2App_feign">
+    <configuration name="ZuulApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yc.springcloud812.ZuulApp" />
+      <module name="microservice-zuul-gateway" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yc.springcloud812.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Consumer1App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="microserviceconsumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yc.springcloud812.Consumer1App" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Consumer2App_commonBook" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="microservice-consumer2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yc.springcloud812.Consumer2App_commonBook" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Consumer2App_feign" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="microservice-consumer-feign" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yc.springcloud812.Consumer2App_feign" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="microserviceeureka" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yc.springcloud812.EurekaApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaApp2" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="microservice-eureka2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yc.springcloud812.EurekaApp2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaApp3" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="microservice-eureka3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yc.springcloud812.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yc.springcloud812.EurekaApp3" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HystrixDashboardApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="microservice-hystrix-dashboard" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yc.springcloud812.dashboard.HystrixDashboardApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProviderApp1" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="microserviceprovider" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yc.springcloud812.ProviderApp1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProviderApp2" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="microservice-provider2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yc.springcloud812.ProviderApp2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProviderApp3" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="microservice-provider3" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yc.springcloud812.ProviderApp3" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProviderApp_hystrix" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="microservice-provider-hystrix" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yc.springcloud812.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yc.springcloud812.ProviderApp_hystrix" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TurbinApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="microservice-turbine" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yc.springcloud81.turbin.TurbinApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserProviderHystrix" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="microservice-provider-user-hystrix" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yc.springcloud812.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yc.springcloud812.UserProviderHystrix" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZuulApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="microservice-zuul-gateway" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yc.springcloud812.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yc.springcloud812.ZuulApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.UserProviderHystrix" />
+        <item itemvalue="Spring Boot.ProviderApp_hystrix" />
+        <item itemvalue="Spring Boot.EurekaApp3" />
+        <item itemvalue="Spring Boot.ZuulApp" />
+        <item itemvalue="Application.ZuulApp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9e1cfe0f-8625-43cd-956e-f5bd7132743a" name="Default Changelist" comment="" />
+      <created>1602241517194</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602241517194</updated>
+      <workItem from="1602241521436" duration="7564000" />
+      <workItem from="1602296439545" duration="842000" />
+      <workItem from="1602412584114" duration="9743000" />
+      <workItem from="1602585890767" duration="9270000" />
+      <workItem from="1603351287645" duration="1963000" />
+      <workItem from="1603361883591" duration="11260000" />
+      <workItem from="1603450067007" duration="476000" />
+      <workItem from="1603533756266" duration="12681000" />
+      <workItem from="1603621430661" duration="3899000" />
+      <workItem from="1603632546498" duration="116000" />
+      <workItem from="1603708640753" duration="10469000" />
+      <workItem from="1603794329976" duration="15000" />
+      <workItem from="1603881780387" duration="7123000" />
+      <workItem from="1603967288499" duration="601000" />
+      <workItem from="1604055386835" duration="8568000" />
+      <workItem from="1604104371220" duration="13000" />
+      <workItem from="1604574168906" duration="3796000" />
+      <workItem from="1604820697419" duration="2352000" />
+      <workItem from="1604831628454" duration="12000" />
+      <workItem from="1605004098870" duration="10981000" />
+      <workItem from="1605090168309" duration="16000" />
+      <workItem from="1605176659276" duration="1988000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="445" y="196" key="#com.intellij.ide.util.MemberChooser" timestamp="1605013841115">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="445" y="196" key="#com.intellij.ide.util.MemberChooser/0.0.1280.984@0.0.1280.984" timestamp="1605013841115" />
+    <state x="419" y="246" key="FileChooserDialogImpl" timestamp="1604057549299">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="419" y="246" key="FileChooserDialogImpl/0.0.1280.984@0.0.1280.984" timestamp="1604057549299" />
+    <state width="812" height="312" key="GridCell.Tab.0.bottom" timestamp="1605015329742">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="812" height="312" key="GridCell.Tab.0.bottom/0.0.1280.984@0.0.1280.984" timestamp="1605015329742" />
+    <state width="812" height="312" key="GridCell.Tab.0.center" timestamp="1605015329742">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="812" height="312" key="GridCell.Tab.0.center/0.0.1280.984@0.0.1280.984" timestamp="1605015329742" />
+    <state width="812" height="312" key="GridCell.Tab.0.left" timestamp="1605015329742">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="812" height="312" key="GridCell.Tab.0.left/0.0.1280.984@0.0.1280.984" timestamp="1605015329742" />
+    <state width="812" height="312" key="GridCell.Tab.0.right" timestamp="1605015329742">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="812" height="312" key="GridCell.Tab.0.right/0.0.1280.984@0.0.1280.984" timestamp="1605015329742" />
+    <state width="812" height="312" key="GridCell.Tab.1.bottom" timestamp="1605015329742">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="812" height="312" key="GridCell.Tab.1.bottom/0.0.1280.984@0.0.1280.984" timestamp="1605015329742" />
+    <state width="812" height="312" key="GridCell.Tab.1.center" timestamp="1605015329742">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="812" height="312" key="GridCell.Tab.1.center/0.0.1280.984@0.0.1280.984" timestamp="1605015329742" />
+    <state width="812" height="312" key="GridCell.Tab.1.left" timestamp="1605015329742">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="812" height="312" key="GridCell.Tab.1.left/0.0.1280.984@0.0.1280.984" timestamp="1605015329742" />
+    <state width="812" height="312" key="GridCell.Tab.1.right" timestamp="1605015329742">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="812" height="312" key="GridCell.Tab.1.right/0.0.1280.984@0.0.1280.984" timestamp="1605015329742" />
+    <state x="133" y="135" key="SettingsEditor" timestamp="1604057550859">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="133" y="135" key="SettingsEditor/0.0.1280.984@0.0.1280.984" timestamp="1604057550859" />
+    <state x="341" y="88" width="598" height="807" key="find.popup" timestamp="1604060839740">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="341" y="88" width="598" height="807" key="find.popup/0.0.1280.984@0.0.1280.984" timestamp="1604060839740" />
+    <state x="29" y="146" key="new project wizard" timestamp="1605004475343">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="29" y="146" key="new project wizard/0.0.1280.984@0.0.1280.984" timestamp="1605004475343" />
+    <state x="303" y="211" width="672" height="678" key="search.everywhere.popup" timestamp="1605013641596">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="303" y="211" width="672" height="678" key="search.everywhere.popup/0.0.1280.984@0.0.1280.984" timestamp="1605013641596" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/microservice-provider/src/main/java/com/yc/springcloud812/controller/BookController.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

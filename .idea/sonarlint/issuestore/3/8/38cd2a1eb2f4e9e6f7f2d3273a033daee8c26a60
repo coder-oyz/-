@@ -1,0 +1,7 @@
+
+X
+java:S4719"=Replace Charset.forName() call with StandardCharsets.US_ASCII(˜ıØùÿÿÿÿ
+V	java:S125)"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ
+N	java:S106""9Replace this use of System.out or System.err by a logger.(ğ¸èò
+E
+java:S1068"*Remove this unused "logger" private field.(•œÄÿÿÿÿÿ

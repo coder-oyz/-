@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="microservice-turbine" />
+        <module name="microservice-provider-user-hystrix" />
+        <module name="microservice-eureka3" />
+        <module name="microservice-eureka2" />
+        <module name="microservice-zuul-gateway" />
+        <module name="microservice-provider3" />
+        <module name="microservice-provider2" />
+        <module name="microservice-interface" />
+        <module name="microserviceprovider" />
+        <module name="microservice-provider-hystrix" />
+        <module name="microservicesecurity" />
+        <module name="microservice-consumer-feign" />
+        <module name="microserviceeureka" />
+        <module name="microservice-hystrix-dashboard" />
+        <module name="microservice-consumer2" />
+        <module name="microserviceconsumer" />
+        <module name="microservice-api" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="detailcloud" target="1.8" />
+      <module name="eureka" target="1.8" />
+      <module name="microservice-api" target="1.8" />
+      <module name="microservice-consumer-feign" target="1.8" />
+      <module name="microservice-consumer2" target="1.8" />
+      <module name="microservice-eureka2" target="1.8" />
+      <module name="microservice-eureka3" target="1.8" />
+      <module name="microservice-hystrix-dashboard" target="1.8" />
+      <module name="microservice-interface" target="1.8" />
+      <module name="microservice-provider-hystrix" target="1.8" />
+      <module name="microservice-provider-user-hystrix" target="1.8" />
+      <module name="microservice-provider2" target="1.8" />
+      <module name="microservice-provider3" target="1.8" />
+      <module name="microservice-turbine" target="1.8" />
+      <module name="microservice-zuul-gateway" target="1.8" />
+      <module name="microserviceapi" target="1.8" />
+      <module name="microserviceconsumer" target="1.8" />
+      <module name="microserviceeureka" target="1.8" />
+      <module name="microserviceprovider" target="1.8" />
+      <module name="microservicesecurity" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="detailcloud" options="-parameters" />
+    </option>
+  </component>
+</project>
