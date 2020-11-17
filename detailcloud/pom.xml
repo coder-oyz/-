@@ -30,13 +30,20 @@
         <module>miscoservice-consumer-feign</module>
         <module>miscoservice-security</module>
         <module>miscoservice-eureka</module>
+        <module>miscoservice-ha-config-eureka</module>
+        <module>miscoservice-config-eureka-client</module>
         <module>miscoservice-eureka2</module>
         <module>miscoservice-eureka3</module>
         <module>miscoservice-interface</module>
         <module>miscoservice-provider-hystrix</module>
+        <module>miscoservice-config-provider-hystrix-client</module>
         <module>miscoservice-hystrix-dashboard</module>
         <module>miscoservice-turbine</module>
         <module>miscoservice-zuul-gateway</module>
+        <module>miscoservice_config</module>
+        <module>miscoservice_config2</module>
+        <module>miscoservice_config3</module>
+        <module>miscoservice_config_client</module>
 
 
     </modules>

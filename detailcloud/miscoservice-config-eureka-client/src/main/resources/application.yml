@@ -1,0 +1,3 @@
+spring:
+  application:
+    name: miscoservice-config-eureka-client

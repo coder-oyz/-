@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>detailcloud</artifactId>
+        <groupId>com.yc.springcloud_detail</groupId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <version>1.0.0</version>
+
+    <artifactId>miscoservice-interface</artifactId>
+    <dependencies>
+    <!-- 因为这里引入了 microservice-api ,所以要在父项目中指定 这个模块的版本，-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-openfeign</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.yc.springcloud_detail</groupId>
+            <artifactId>miscoservice-api</artifactId>
+        </dependency>
+
+    </dependencies>
+
+</project>

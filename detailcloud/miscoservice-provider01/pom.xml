@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.yc.springcloud_detail</groupId>
+        <artifactId>detailcloud</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+    <artifactId>miscoservice-provider01</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>miscoservice-provider01</name>
+    <description>Demo project for Spring Boot</description>
+
+
+    <!-- 从父项目继承-->
+    <dependencies>
+        <!-- 因为这里引入了 microservice-api ,所以要在父项目中指定 这个模块的版本，-->
+        <dependency>
+            <groupId>com.yc.springcloud_detail</groupId>
+            <artifactId>miscoservice-api</artifactId>
+        </dependency>
+
+        <!-- 因为这里引入了 microservice-security ,所以要在父项目中指定 这个模块的版本，-->
+        <dependency>
+            <groupId>com.yc.springcloud_detail</groupId>
+            <artifactId>miscoservice-security</artifactId>
+
+        </dependency>
+
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <!--  如是mysql5,要加入版本配置  -->
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>druid</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.mybatis.spring.boot</groupId>
+            <artifactId>mybatis-spring-boot-starter</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>tk.mybatis</groupId>
+            <artifactId>mapper-spring-boot-starter</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-devtools</artifactId>
+        </dependency>
+
+        <!--Eureka 依賴 -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+        </dependency>
+
+        <!--增加
+        -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+
+    </dependencies>
+
+    <!--  增加一个读取$的插件 -->
+    <build>
+        <finalName>microcloud</finalName>
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+                <filtering>true</filtering>
+            </resource>
+        </resources>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-resources-plugin</artifactId>
+                <configuration>
+                    <delimiters>
+                        <delimiter>$</delimiter>
+                    </delimiters>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>${java.version}</source><!-- 源代码使用的开发版本 -->
+                    <target>${java.version}</target><!-- 需要生成的目标class文件的编译版本 -->
+                </configuration>
+            </plugin>
+
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>2.2.2.RELEASE</version>
+            </plugin>
+        </plugins>
+    </build>
+</project>
