@@ -1,24 +1,25 @@
 package com.oyz.test6;
 
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 import java.util.Scanner;
 
 public class FreeLink {
-	List<Process> list =new ArrayList<Process>();//存储被已分配资源得进程
+	List<Process> list =new ArrayList<Process>();//存储被已分配资源得作业
 	public int allSize; //内存容量
 	public int lessSize;//碎片大小
 	
 	Node header;
 	Scanner sc = new Scanner(System.in);
-	public Node init() {
+	public void init() {
 		System.out.print("请输入内存资源量：");
 		allSize = sc.nextInt();
-		System.out.print("请输入碎片时间：");
+		System.out.print("请输入碎片大小：");
 		lessSize=sc.nextInt();
 		Node head = new Node(0,allSize,null); //size=-1代表为开始节点
 		header=head;
-		return head;
 	}
 	
 	public void waitRelease() {
@@ -62,8 +63,6 @@ public class FreeLink {
 		}
 		//处理作业夹在两个作业中间
 		insertNode(p);
-		
-		
 	}
 	public void insertNode(Process p) {
 		
@@ -132,8 +131,9 @@ public class FreeLink {
 		}
 		//找到对应的空闲Node
 		p.start=head.start+head.size-p.size;
-		//判断碎片时间
-		if(head.size-size<lessSize) {
+		//判断碎片大小
+		if(head.size-size<=lessSize) {
+			p.size=head.size;
 			deleteNode(head);
 			return true;
 		}
@@ -157,7 +157,8 @@ public class FreeLink {
 			}
 			head=head.next;
 		}
-		if(head.size-size<lessSize) {//小于碎片时间
+		if(head.size-size<=lessSize) {//小于碎片时间
+			p.size=head.size;
 			deleteNode(head);
 			return true;
 		}
@@ -173,6 +174,7 @@ public class FreeLink {
 	}
 	
 	public void printAll() {
+		Collections.sort(list);	
 		Node temp=header;
 		//打印内存分配情况
 		System.out.println("打印内存分配情况:");

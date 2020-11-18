@@ -8,7 +8,7 @@ public class Main {
 		FreeLink link=new FreeLink();
 		
 		link.init();
-		//
+		
 		link.insertBefore(new Process(0, 0, 16));
 		
 		for(;;) {

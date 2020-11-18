@@ -1,6 +1,8 @@
 package com.oyz.test6;
 
-public class Process {
+import java.util.Comparator;
+
+public class Process implements Comparable<Process>{
 	
 	public int name; //作业名
 	public int size;//作业大小
@@ -27,6 +29,13 @@ public class Process {
 		}else {
 			return "time--"+time+"作业开始    P"+name+"   作业大小  "+size+"     占据内存--起始地址"+start;
 		}
+	}
+
+	
+
+	@Override
+	public int compareTo(Process o) {
+		return this.start-o.start;
 	}
 
 	

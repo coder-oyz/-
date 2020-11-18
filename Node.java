@@ -1,6 +1,6 @@
 package com.oyz.test6;
 
-public class Node {
+public class Node  {
 	public int start;
 	public int size;
 	public Node next;
@@ -28,6 +28,8 @@ public class Node {
 	public String toString() {
 		return "Node [start=" + start + ", size=" + size + "]";
 	}
+	
+	
 
 	
 	
