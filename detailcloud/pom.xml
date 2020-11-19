@@ -44,6 +44,8 @@
         <module>miscoservice_config2</module>
         <module>miscoservice_config3</module>
         <module>miscoservice_config_client</module>
+        <module>miscoservice-config-bus</module>
+        <module>miscoservice-config-bus-client</module>
 
 
     </modules>
