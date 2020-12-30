@@ -1,13 +1,13 @@
-class Student(val sno1: String, val grade1: Int) : Person() {
-    var sno = ""
-    var grade = 0
-    init {
-        sno = sno1
-        grade = grade1
-        println("sno is " + sno)
-        println("grade is " + grade)
-    }
-}
+//class Student(val sno1: String, val grade1: Int) : Person() {
+//    var sno = ""
+//    var grade = 0
+//    init {
+//        sno = sno1
+//        grade = grade1
+//        println("sno is " + sno)
+//        println("grade is " + grade)
+//    }
+//}
 
 //class Student(val sno: String, val grade: Int, name: String, age: Int) : Person(name, age) {
 //    var sno1=""
@@ -25,3 +25,13 @@ class Student(val sno1: String, val grade1: Int) : Person() {
 //    constructor() : this("", 0) {
 //    }
 //}
+
+class Student(name: String, age: Int) : Person(name, age), Study {
+    override fun readBooks() {
+        println(name + " is reading.")
+    }
+
+    override fun doHomework() {
+        println(name + " is doing homework.")
+    }
+}
