@@ -1,16 +1,19 @@
 import java.util.*
 import kotlin.math.max
-
-fun  main(args:Array<String>){
-    val a=21;
-    val b=20;
-    val value= largerNumber(a,b);
-    println("the largeNum is "+value);
-
-    val score=getSocre("Tom");
-    println("the score is "+score);
-    checkNumber(score);
+fun main() {
+    val a = 10
+    println("a = " + a)
 }
+//fun  main(args:Array<String>){
+//    val a=21;
+//    val b=20;
+//    val value= largerNumber(a,b);
+//    println("the largeNum is "+value);
+//
+//    val score=getSocre("Tom");
+//    println("the score is "+score);
+//    checkNumber(score);
+//}
 
 //fun largerNumber(num1: Int, num2: Int): Int{
 //    return max(num1,num2);
