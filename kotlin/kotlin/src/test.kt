@@ -2,11 +2,20 @@ package com.oyz.activitytest
 
 import java.lang.StringBuilder
 
-fun main() {
+/*fun main() {
 
     //test1()
     test4()
+}*/
+
+fun printParams(num: Int = 100, str: String) {
+    println("num is $num , str is $str")
 }
+
+fun main() {
+    printParams(str = "world")
+}
+
 //normal
 fun test1(){
     val list = listOf("Apple", "Banana", "Orange", "Pear", "Grape")
