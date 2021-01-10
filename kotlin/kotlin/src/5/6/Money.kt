@@ -1,6 +1,6 @@
 package `5`.`6`
 
-class Money(val value: Int) {
+data class Money(val value: Int) {
 
     operator fun plus(money: Money): Money {
         val sum = value + money.value
@@ -11,5 +11,6 @@ class Money(val value: Int) {
         val sum = value + newValue
         return Money(sum)
     }
+
 
 }
